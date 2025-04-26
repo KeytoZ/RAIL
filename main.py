@@ -70,16 +70,8 @@ X, Y = preprocess_data(args.dataset, float(args.unaligned_rate), int(args.base))
 original_dim = [X_i.shape[1] for X_i in X]
 print("original_dim: ", original_dim)
 num_views = len(X)
-# pre_weights_path = 'shuffled_pretrain/batch_norm_trick/'
-pre_weights_path = 'ablation/'
-pretrain_model = My_Model(int(args.batch_size), num_views, latent_dim, intermediate_dim, config_init(original_dim, args.dataset, int(args.pre_epoch), 0, 0),
-                      pre_weights_path, args.dataset, int(args.save),
-                      ispretrain=False)
-pretrain_model.compile(X, Y)
-print("###  pretrain model  ###")
-pretrain_model.train(X)
-pretrain_model.my_model.save_weights(pre_weights_path + args.dataset + '.h5') # 保存预训练model
 
+pre_weights_path = 'shuffled_pretrain/batch_norm_trick/'
 # 正式训练
 model = My_Model(int(args.batch_size), num_views, latent_dim, intermediate_dim,
                  config_init(original_dim, args.dataset, int(args.epoch), float(args.alpha), float(args.beta)),
