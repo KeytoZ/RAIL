@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd021d4-b658-4a8d-860e-f9ed5b7621be" name="Default Changelist" comment="" />
+    <list default="true" id="1dd021d4-b658-4a8d-860e-f9ed5b7621be" name="Default Changelist" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +27,10 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="F:\Git_GitFLS\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2oeMtRugS4QxwQmszjHHTvFAldr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +52,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -326,12 +339,35 @@
       <workItem from="1745052104224" duration="8000" />
       <workItem from="1745298353546" duration="131000" />
       <workItem from="1745594195711" duration="1027000" />
-      <workItem from="1745674104767" duration="1131000" />
+      <workItem from="1745674104767" duration="2958000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1745675462253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745675462253</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="67" key="#Deployment" timestamp="1745674447644">
@@ -366,10 +402,14 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1744273298763" />
-    <state x="270" y="53" key="SettingsEditor" timestamp="1745675245752">
+    <state x="270" y="53" key="SettingsEditor" timestamp="1745677092273">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="270" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1745675245752" />
+    <state x="270" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1745677092273" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1745676050878">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1745676050878" />
     <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1745595235300">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
